@@ -22,11 +22,11 @@ For a minimum grade of B, all projects for this unit must:
     <li>Use arrangement, size, color, visual rhythm, and/or contrast to focus viewers' attention.
         <ul><li>Use the reflection to clarify your compositional choices and goals (e.g. design hierarchy)</li></ul></li>
     <li>Include at least 3 navigable html locations (separate pages or distinct scrolling locations on the same page)</li>
-    <li>Include a sitewide css stylesheet (i.e. an organized visual theme)</li>
+    <li>Include a sitewide CSS stylesheet (i.e. an organized visual theme)</li>
     <li>Link internally from all pages (no dead ends)</li>
     <li>Include at least one licensed or fair-use image, <em>with alt text</em></li>
-    <li>Credit all assets correctly, including attribution (creator names) where required</li>
-    <li>Successfully load all elements in a web browser, at least locally</li>
+    <li>Credit all assets correctly on the site itself (or link to credits in the repo), including Title, Author, Source, and License</li>
+    <li>Successfully load all elements in a web browser, at least locally (i.e. file paths should work on any computer)</li>
     <li>Use meaningful commit messages that say what’s changing (or even why)</li>
 </ul>
 
@@ -34,31 +34,44 @@ For a minimum grade of B, all projects for this unit must:
 **Aspirational inspirations**
 To target (but not guarantee) a grade above a B, the best projects for this unit may...
 
-* Dynamism
-    - Use responsive design (e.g. <code>@media</code> queries, <code>flex-wrap</code>, <code>auto-fill</code>, etc) to dynamically resize elements based on viewport width
-    - Animate HTML elements via JavaScript (e.g. image carousel) or CSS (e.g. @keyframes)
-    - Add interactivity via JavaScript (e.g. on-click events / functions)
-    <!-- -	Include a loadable alternate stylesheet / theme (e.g. dark mode, high-contrast) if you can explain why it’s helpful in your reflection (e.g. does it make the site more accessible? Is it a print stylesheet?) -->
-
-* Coding
-    - [Validate](https://validator.w3.org/) your HTML
-    - Use Flexbox or Grid layouts
-    - Use classes shared across multiple elements to minimize repetition in your CSS
-    - Use Jekyll (built into GitHub Pages; see [Resources page](https://benmiller314.github.io/cdm2022spring/resources#web-frameworks)) to minimize repetition in your HTML through templates and variables
-    - Use CSS preprocessors (e.g. SASS, LESS) to minimize repetition in your stylesheets
-    - Add comments, whitespace, and other formatting to code to make it more readable
-
-* Audience Engagement
-    - Use non-default fonts, drawing on visual unit knowledge
-    - Use best practices for accessible design (see [W3's Four Principles](https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head) and the [WAVE web accessibility evaluation tool](http://wave.webaim.org))
-        - These include, but are not limited to, using semantic HTML elements like `<section>` instead of `<div>`
-    - Use breadcrumbs or other cues to help readers locate themselves within the site, no matter where they begin
-    - Optimize image filetypes, resolutions, and file sizes for faster loading
-    - Load site publicly over the internet with GitHub Pages
-
-* Reflection
-    - Refer to specific tutorials or reference materials that helped you in your design
-
+<ul>
+    <li><em>Dynamism</em>
+        <ul>
+            <li>Use responsive design (e.g. <code>@media</code> queries, <code>flex-wrap</code>, <code>auto-fill</code>, etc) to dynamically resize elements based on viewport width</li>
+            <li>Animate HTML elements via CSS or JavaScript (e.g. image carousel, <code>@keyframes</code>, <code>:hover</code> / <code>:focus</code> events, etc)</li>
+            <li>Swap in/out content via JavaScript (e.g. on-click events / functions)</li>
+            <li>Use JavaScript file to help construct the web page (e.g. dynamically load images from a folder)</li>
+        </ul>
+    </li>
+    <li><em>Coding</em>
+        <ul>
+            <li><a href="https://validator.w3.org/">Validate</a> your HTML</li>
+            <li>Use Flexbox or Grid layouts</li>
+            <li>Use classes shared across multiple elements to minimze repetition in your CSS</li>
+            <li>Use <a href="https://benmiller314.github.io/cdm2022spring/resources#web-frameworks:~:text=a%20tool%20for%20incorporating%20templates%20and%20variables">Jekyll</a> to minimize repetition in your HTML through templates and variables</li>
+            <li>Use CSS preprocessors (e.g. SASS, LESS) or <a href="https://css-tricks.com/a-complete-guide-to-custom-properties/">custom properties</a> to minimize repetition in your stylesheets</li>
+            <li>Add comments, whitespace, and other formatting to code to make it more readable</li>
+        </ul>
+    </li>
+    <li><em>Audience Engagement</em>
+        <ul>
+            <li>Use non-default fonts, drawing on visual unit knowledge</li>
+            <li>Use best practices for accessible design (see <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head">W3's Four Principles</a> and the <a href="http://wave.webaim.org/">WAVE web accessibility evaluation tool</a>)<ul><li>These include, but are not limited to, using semantic HTML elements like <code>&lt;section&gt;</code> and <code>&lt;nav&gt;</code> instead of <code>&lt;div&gt;</code></li></ul></li>
+            <li>Use breadcrumbs or other cues (e.g. sticky / static nav) to help readers locate themselves within the site, no matter where they begin</li>
+            <li>Optimize image filetypes, resolutions, and file sizes for faster loading</li>
+            <li>Load site publicly over the internet (e.g. with GitHub Pages)</li>
+        </ul>
+    </li>
+    <li><em>Reflection</em>
+        <ul>
+            <li>Make a clear argument in your reflection as to why you met enough of the aspirational criteria to be stretching the abilities you came in with: e.g. clarify what skills you came in with, and what was new</li>
+            <li>Justify the website's structure for its intended purpose / audience</li>
+            <li>(For all of the above, clarify your compositional choices and goals (e.g. design hierarchy)</li>
+            <li>Refer to specific tutorials or reference materials that helped you in your design</li>
+            <li>Discuss what you would do if you had more time, and why you didn't have time now</li>
+        </ul>
+    </li>
+</ul>
 
 
 
